@@ -1,0 +1,47 @@
+/* static/styles.css */
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.narration-text {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.narration-text {
+    font-size: 40px; /* Adjust the font size as needed */
+    width: 90%;
+    margin: 20px auto;
+}

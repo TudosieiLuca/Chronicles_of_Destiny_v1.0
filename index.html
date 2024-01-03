@@ -1,0 +1,30 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="narration-text text">
+        <!-- Existing text -->
+    </div>
+
+    <div id="options" class="options-container">
+        <!-- First set of buttons (initially hidden) -->
+        <button id="yes-button" style="display: none;">Yes</button>
+        <button id="no-button" style="display: none;">No</button>
+        <!-- Second set of buttons (initially hidden) -->
+        <button id="yes-button-2" style="display: none;">Ok, I will join.</button>
+        <button id="no-button-2" style="display: none;">No, I would prefer to stay.</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
